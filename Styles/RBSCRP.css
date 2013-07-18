@@ -1,0 +1,342 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+   margin: 0px;
+}
+
+a:link, a:visited
+{
+}
+
+a:hover
+{
+
+}
+
+a:active
+{
+   
+}
+
+p
+{
+    
+}
+
+h4
+{
+    color: White;
+    margin: 0px;
+    font-family: Lucida Sans;
+}
+
+/*COMMON LAYOUT ELEMENTS
+----------------------------------------------------------*/
+
+.floatLeft
+{
+    float: left;   
+}
+
+.floatRight
+{
+    float: right;   
+}
+
+/*RBSCRP MASTER ELEMENTS
+----------------------------------------------------------*/
+
+a.menuLink:link
+{
+    font-family: Lucida Sans;
+    color: #060606;
+    text-decoration: none;
+}
+
+a.menuLink:hover
+{
+    text-decoration: underline;
+}
+
+#mainMenuWrapper
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(http://localhost:49526/Static/Images/layout/banner_background.png);
+    background-repeat:repeat-x;
+    box-shadow: 15px 0px 10px #585858
+}
+
+#menuTable
+{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menuBannerTD
+{
+    width: 20%;   
+}
+.menuTD
+{
+    text-align: center;
+}
+
+#footerWrapper
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    background-color: #555555;
+    border-radius: 10px;
+}
+
+.footerTD
+{
+    vertical-align: top;
+    padding: 0px 40px;
+}
+
+p.footerHeader
+{
+    color: #A6A6A6;
+    font-family: Lucida Sans;
+}
+
+p.footerPara
+{
+    color: White;
+    border-bottom: 1px dotted White;
+    font-family: Lucida Sans;
+}
+
+/*DEFAULT ELEMENTS
+----------------------------------------------------------*/
+#mainDiv
+{
+    background-color: #555555;
+    color: White;
+    height: 391px;
+    font-family: Lucida Sans;
+}
+#mainImageParaWrapper
+{
+    width: 75%;
+    margin-left: auto;
+    margin-right:auto;
+}   
+
+p.mainPara
+{
+    font-size: xx-large;
+    margin-top: 0px;
+}
+
+#quickLinksTable
+{
+    width: 60%;
+} 
+
+.quickLinksTD
+{
+    text-align: center;
+}
+
+#descriptWrapper
+{
+    border: 10px solid #555555;
+    border-radius: 10px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descriptImage
+{
+    float: left;
+    padding-right: 15px;   
+}
+
+.descriptTD
+{
+    padding: 15px;
+}
+
+.descriptPara
+{
+    font-family: Lucida Sans;
+    font-size: 100%;
+}
+
+#informationWrapper
+{
+    border: 10px solid #555555;
+    border-radius: 10px;   
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+#informationHeaderWrapper
+{
+    background-color: #555555;
+    height: 65px;
+}
+
+#informationContentWrapper
+{
+    border-radius: 10px;
+}
+
+#floatingTitle
+{
+    float: left;  
+}
+.infoHeading
+{
+    font-family: Lucida Sans;
+    font-size: xx-large;
+    text-align: left;
+}
+
+.infoTD
+{
+    font-family: Lucida Sans;
+    width: 33%;   
+    vertical-align: top;
+    line-height: 25px;
+    padding: 30px;
+}
+                
+/*CONTACT ELEMENTS
+----------------------------------------------------------*/
+
+
+
+/*DEMOS ELEMENTS
+----------------------------------------------------------*/
+
+
+
+/*HARDWARE ELEMENTS
+----------------------------------------------------------*/
+
+#hardwareMenuWrapper
+{
+    background-color: #555555;
+    font-family: Lucida Sans;
+    color: White;
+}
+
+.hardwareTitle
+{
+    height: 64px; 
+    font-size: xx-large;  
+}
+
+.hardwareMenuTable
+{
+    width: 100%;
+}
+
+.hardwareMenu
+{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hardwareTD
+{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.hardwareTDSelected
+{
+    background-image: url(http://localhost:49526/Static/Images/layout/tour-point.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+a.hardwarelink:link
+{
+    text-decoration: none;
+    color: White;
+}
+
+a.hardwarelink:visited
+{
+    color: White;
+}
+
+a.hardwarelink:hover
+{
+    color: #03F213;
+}
+
+.hardwareHeader
+{
+    background-color: #555555;
+    text-align: left;
+    color: #03F213;
+    width: 75%;
+    font-family: Lucida Sans;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+.hardwareContentWrapper
+{
+    border: 10px solid #555555;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.hardwareInfoTD
+{
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    vertical-align: top;
+    padding-top: 45px;
+}
+
+.hardwareInfoPara
+{
+    font-family: Lucida Sans;
+    color: #555555;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+li.hardwareBullet
+{
+    font-family: Lucida Sans;
+    font-size: x-large;
+    color: #555555;
+    
+}
+
+.hardwareImage
+{
+    width: 50%;
+}
+
+/*SOLUTIONS ELEMENTS
+----------------------------------------------------------*/
+
+
+
+/*TESTIMONIALS ELEMENTS
+----------------------------------------------------------*/

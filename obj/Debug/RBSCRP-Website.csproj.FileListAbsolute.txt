@@ -1,0 +1,5 @@
+C:\Users\Brandon\Documents\Visual Studio 2010\Projects\RBSCRP-Website\RBSCRP-Website\bin\RBSCRP-Wwebsite.dll
+C:\Users\Brandon\Documents\Visual Studio 2010\Projects\RBSCRP-Website\RBSCRP-Website\bin\RBSCRP-Wwebsite.pdb
+C:\Users\Brandon\Documents\Visual Studio 2010\Projects\RBSCRP-Website\RBSCRP-Website\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Brandon\Documents\Visual Studio 2010\Projects\RBSCRP-Website\RBSCRP-Website\obj\Debug\RBSCRP-Wwebsite.dll
+C:\Users\Brandon\Documents\Visual Studio 2010\Projects\RBSCRP-Website\RBSCRP-Website\obj\Debug\RBSCRP-Wwebsite.pdb

@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RBSCRP.Master.cs" Inherits="RBSCRP_Wwebsite.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/RBSCRP.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="mainMenuWrapper">
+        <table id="menuTable">
+            <tr>
+                <td class="menuBannerTD"><a href="/Pages/Default.aspx"><img alt="RBSCRP" src="/Static/Images/layout/banner.png" /></a></td>
+                <td class="menuTD"><a class="menuLink" href="/Pages/Solutions.aspx">SOLUTIONS</a></td>
+                <td class="menuTD"><a class="menuLink" href="/Pages/Hardware/Workstation5.aspx">HARDWARE</a></td>
+                <td class="menuTD"><a class="menuLink" href="/Pages/Testimonials.aspx">TESTIMONIALS</a></td>
+                <td class="menuTD"><a class="menuLink" href="/Pages/Demos.aspx">DEMOS</a></td>
+                <td class="menuTD"><a class="menuLink" href="/Pages/Contact.aspx">CONTACT US</a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="main">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+    </div>
+
+    <div id="footerWrapper">
+        <table>
+            <tr>
+                <td class="footerTD">
+                    <p class="footerHeader">HARDWARE</p>
+                    <p class="footerPara">Workstation 5</p>
+                    <p class="footerPara">Workstation 4</p>
+                    <p class="footerPara">Kitchen Displays</p>
+                    <p class="footerPara">Menu Boards</p>
+                </td>    
+                <td class="footerTD">
+                    <p class="footerHeader">SOLUTIONS</p>
+                    <p class="footerPara">e7</p>
+                    <p class="footerPara">res</p>
+                    <p class="footerPara">9700</p>
+                </td>      
+                <td class="footerTD">
+                    <p class="footerHeader">CONTACT US</p>
+                    <p class="footerPara">Schedule Demo</p>
+                    <p class="footerPara">Support Portal</p>
+                    <p class="footerPara">Directory</p>
+                </td>
+                <td class="footerTD">
+                    <p class="footerHeader">RBS/CRP INC.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
